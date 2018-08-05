@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto", "微軟正黑體";
+  background-color: #000000;
+  width: 1500px;
+  height: 100%; }
+
+.top {
+  text-align: center;
+  font-size: 26px; }
+  .top > .img {
+    position: absolute;
+    left: 180px;
+    top: 0px; }
+  .top > .title {
+    user-select: none;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 15px #0093FF;
+    position: relative;
+    display: inline-block;
+    left: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+#mid {
+  position: relative; }
+  #mid > .btn {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    background: rgba(0, 147, 255, 0.35);
+    border: 12px solid rgba(92, 92, 92, 0.62);
+    box-shadow: 0 3px 6px rgba(0, 147, 255, 0.44);
+    border-radius: 40px; }
+    #mid > .btn:after {
+      content: attr(dataBefore);
+      display: block;
+      position: absolute;
+      font-size: 18px;
+      color: white;
+      bottom: -38px;
+      left: 0;
+      letter-spacing: 1.5px;
+      text-shadow: 2px 2px 15px #0093FF; }
+    #mid > .btn > img {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      transition: transform 0.3s cubic-bezier(0.64, 2.46, 0.63, 0.52); }
+      #mid > .btn > img:hover {
+        transform: translate(-50%, -50%) scale(1.2); }
+
+.bottom {
+  position: relative; }
