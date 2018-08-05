@@ -50,4 +50,23 @@ body {
         transform: translate(-50%, -50%) scale(1.2); }
 
 .bottom {
-  position: relative; }
+  position: relative;
+  margin-top: 700px;
+  margin-left: 200px; }
+  .bottom > .bor {
+    width: 800px;
+    height: 300px;
+    border-width: 15px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    border: 10px solid #3979D5;
+    position: absolute;
+    border-radius: 50px;
+    top: 15%;
+    left: 300px;
+    padding: 20px 20px;
+    color: #7B7B7B;
+    font-size: 35px;
+    font-weight: 900;
+    box-sizing: border-box;
+    line-height: 50px; }

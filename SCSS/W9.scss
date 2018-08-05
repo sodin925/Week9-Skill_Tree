@@ -5,11 +5,10 @@ body {
   height: 100%;
 }
 
-h1 {
-  // margin-top: 5px;
-  // margin-bottom: 5px;
-}
-
+// h1 {
+//    margin-top: 5px;
+//    margin-bottom: 5px;
+// }
 .top {
   text-align: center;
   font-size: 26px; // margin-top: 70px;
@@ -65,4 +64,26 @@ h1 {
 
 .bottom {
   position: relative;
+  margin-top: 700px;
+  margin-left: 200px;
+  >.bor {
+    //外框
+    width: 800px;
+    height: 300px;
+    border-width: 15px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    border: 10px solid #3979D5;
+    position: absolute;
+    border-radius: 50px;
+    top: 15%;
+    left: 300px;
+    padding: 20px 20px;
+    //字
+    color: #7B7B7B;
+    font-size: 35px;
+    font-weight: 900;
+    box-sizing: border-box;
+    line-height: 50px;
+  }
 }
