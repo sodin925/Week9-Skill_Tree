@@ -117,15 +117,16 @@ function buttonPosition() {
     document.getElementById('mid').appendChild(newBT);
 
     newBT.onclick = function() {
-      let word = [];
+      // var word = [];
       let newP = document.createElement('p');
-      let x = document.querySelector('.bor').appendChild(newP);
-      word.push(newP);
-      newP.innerHTML = skillArray[i];
-      if(newBT.onclick) {
-        delete word[i];
-      }
-      // console.log(newP);
+      let newY = document.createElement('y');
+      newY.innerHTML = skillArray[i][0];
+      newP.innerHTML = skillArray[i][1];
+      let x = document.querySelector('.bor');
+      x.innerHTML = '';
+      x.appendChild(newY);
+      x.appendChild(newP);
+
       // newBT.attributes('status').value = 'selected';
     };
     
