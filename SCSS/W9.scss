@@ -45,7 +45,7 @@ body {
       position: absolute;
       font-size: 18px;
       color: white;
-      bottom: -38px;
+      bottom: -50px;
       left: 0;
       letter-spacing: 1.5px;
       text-shadow: 2px 2px 15px #0093FF;
@@ -68,7 +68,7 @@ body {
   margin-left: 200px;
   >.bor {
     //外框
-    width: 800px;
+    width: 900px;
     height: 300px;
     border-width: 15px;
     border-style: solid;
@@ -77,13 +77,16 @@ body {
     position: absolute;
     border-radius: 50px;
     top: 15%;
-    left: 300px;
-    padding: 20px 20px;
-    //字
-    color: #7B7B7B;
-    font-size: 35px;
-    font-weight: 900;
-    box-sizing: border-box;
-    line-height: 50px;
+    left: 130px;
+    z-index: -1;
+    >p {
+      position: absolute;
+      color: red;
+      left: 180px;
+      top: 30px;
+      font-size: 24px;
+      padding: 20px 20px;
+      box-sizing: border-box;
+    }
   }
 }
