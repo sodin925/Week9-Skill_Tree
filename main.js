@@ -1,4 +1,6 @@
 /*jshint esversion: 6 */
+
+
 // function checkButtom() {
 //   let x = document.querySelector('button');
 //   switch (x.status) {
@@ -83,7 +85,7 @@ function buttonPosition() {
     [80, 140],//1
     [270, 140],//2
     [80, 340],//3
-    [230, 340],//4
+    [235, 340],//4
     [390, 340],//5
     [550, 240],//6
     [720, 40],//7

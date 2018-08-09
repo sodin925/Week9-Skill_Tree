@@ -5,6 +5,10 @@ body {
   width: 1500px;
   height: 100%; }
 
+h1 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
 .top {
   text-align: center;
   font-size: 26px; }
@@ -18,9 +22,10 @@ body {
     text-shadow: 2px 2px 15px #0093FF;
     position: relative;
     display: inline-block;
-    left: 15%;
-    margin-top: 5px;
-    margin-bottom: 5px; }
+    left: 5%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 900; }
 
 #mid {
   position: relative; }
@@ -37,10 +42,10 @@ body {
       display: block;
       position: absolute;
       font-size: 18px;
-      color: white;
       bottom: -50px;
       left: 0;
       letter-spacing: 1.5px;
+      color: #FFFFFF;
       text-shadow: 2px 2px 15px #0093FF; }
     #mid > .btn > img {
       position: absolute;
@@ -52,7 +57,7 @@ body {
 .bottom {
   position: relative;
   margin-top: 700px;
-  margin-left: 200px; }
+  margin-left: 50px; }
   .bottom > .bor {
     width: 900px;
     height: 300px;
@@ -67,7 +72,7 @@ body {
     z-index: -1; }
     .bottom > .bor > p {
       position: absolute;
-      color: red;
+      color: #7B7B7B;
       left: 180px;
       top: 30px;
       font-size: 24px;
@@ -75,8 +80,20 @@ body {
       box-sizing: border-box; }
     .bottom > .bor > y {
       position: absolute;
-      color: red;
+      color: #505050;
       left: 180px;
       font-size: 30px;
-      top: 10px;
+      top: 20px;
       font-weight: 900; }
+  .bottom > .box {
+    position: absolute;
+    right: 8%;
+    display: inline-block; }
+    .bottom > .box > p {
+      position: absolute;
+      color: #FFFFFF;
+      text-shadow: 2px 2px 15px #0093FF;
+      font-size: 30px;
+      font-weight: 900;
+      margin-top: 0px;
+      margin-left: 30px; }
